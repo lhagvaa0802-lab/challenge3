@@ -2,11 +2,7 @@
 
 "use client";
 
-export default function Button({
-  children,
-  onClick,
-  type = "button",
-  variant = "primary",
+export default function Button({children, onClick, type = "button", variant = "primary",
 }) {
   const base = "px-4 py-2 rounded font-medium transition disabled:opacity-50";
 
